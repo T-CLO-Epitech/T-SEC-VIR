@@ -3,4 +3,4 @@
 venv\Scripts\activate
 
 # Compilation
-pyinstaller --onefile dns_txt.py
+pyinstaller --onefile malware.py
