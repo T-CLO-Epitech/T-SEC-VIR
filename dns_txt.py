@@ -8,3 +8,7 @@ txt_value = ""
 for rdata in answers:
     print(" ".join(s.decode() for s in rdata.strings))
     txt_value = " ".join(s.decode() for s in rdata.strings)
+
+if(txt_value == "A")
+
+elif
