@@ -21,11 +21,6 @@ Projet académique de recherche en cybersécurité portant sur l'analyse des tec
 ## 📚 Documentation
 
 <table>
-<tr>
-<td width="50%">
-
-### 💡 Concepts
-####  [Introduction aux concepts](./documentation/concepts/CONCEPTS.md)
 
 </td>
 <td width="50%">
@@ -34,21 +29,12 @@ Projet académique de recherche en cybersécurité portant sur l'analyse des tec
 #### [Flux de données](./documentation/diagrams/FLUX.md)
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 ### ⚙️ Schéma fonctionnel
 ####  [Architecture fonctionnelle](./documentation/diagrams/FONCTIONNEL.md)
 
 </td>
-<td width="50%">
-
-### 🏗️ Maquette
-####  [Schéma de la maquette ](./documentation/architecture/ARCHITECTURE.md)
-
-</td>
-</tr>
 <tr>
 <td width="50%">
 
