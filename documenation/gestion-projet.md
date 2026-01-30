@@ -1,4 +1,4 @@
-```
+```mermaid
 %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffffff', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#ffffff', 'lineColor': '#333333', 'sectionBkgColor': '#ffffff', 'altSectionBkgColor': '#f5f5f5', 'taskBkgColor': '#4a90d9', 'taskTextColor': '#ffffff', 'doneTaskBkgColor': '#2e7d32', 'doneTaskBorderColor': '#ffffff', 'activeTaskBkgColor': '#e65100', 'activeTaskBorderColor': '#ffffff', 'gridColor': '#cccccc', 'todayLineColor': '#d32f2f'}}}%%
 gantt
 title Projet T-SEC-911 Virology
