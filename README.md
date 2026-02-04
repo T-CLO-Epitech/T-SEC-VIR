@@ -25,13 +25,13 @@ Projet de recherche en cybersécurité portant sur l'analyse des techniques de c
 <td width="50%">
 
 ### 🔄 Diagramme de flux
-#### [Flux de données](./documentation/diagrams/FLUX.md)
+#### [Flux de données](documentation/diagrams/FLUX.md)
 
 </td>
 <td width="50%">
 
 ### ⚙️ Schéma fonctionnel
-####  [Architecture fonctionnelle](./documentation/diagrams/FONCTIONNEL.md)
+#### [Architecture fonctionnelle](documentation/diagrams/FONCTIONNEL.md)
 
 </td>
 </tr>
@@ -39,13 +39,13 @@ Projet de recherche en cybersécurité portant sur l'analyse des techniques de c
 <td width="50%">
 
 ### 🎯 Charges utiles
-####  [Techniques d'exfiltration](./documentation/payloads/PAYLOADS.md)
+####  [Techniques d'exfiltration](documentation/payloads/PAYLOADS.md)
 
 </td>
 <td width="50%">
 
 ### 🛡️ Obfuscation
-#### [Techniques d'obfuscation](./documentation/obfuscation/OBFUSCATION.md)
+#### [Techniques d'obfuscation](documentation/obfuscation/OBFUSCATION.md)
 
 </td>
 </tr>

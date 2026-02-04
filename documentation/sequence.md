@@ -1,5 +1,4 @@
-```
-sequenceDiagram
+```sequenceDiagram
     Windows->>+Reception: ping (content-length: 129)
     Windows->>+DNS: DIG xxxxx.com
     DNS->>+Windows: TXT = v=spf1 a (attent)
