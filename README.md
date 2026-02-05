@@ -49,6 +49,14 @@ Projet de recherche en cybersécurité portant sur l'analyse des techniques de c
 
 </td>
 </tr>
+<tr>
+<td width="50%" colspan="2" align="center">
+
+### 📖 Glossaire
+#### [Termes techniques et dictionnaires](documentation/concepts/CONCEPTS.md)
+
+</td>
+</tr>
 </table>
 
 ---
@@ -62,7 +70,6 @@ Projet de recherche en cybersécurité portant sur l'analyse des techniques de c
 
 ---
 ## 📅 Planning
-
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ffffff', 'primaryTextColor': '#ffffff', 'primaryBorderColor': '#ffffff', 'lineColor': '#333333', 'sectionBkgColor': '#ffffff', 'altSectionBkgColor': '#f5f5f5', 'taskBkgColor': '#4a90d9', 'taskTextColor': '#ffffff', 'doneTaskBkgColor': '#2e7d32', 'doneTaskBorderColor': '#ffffff', 'activeTaskBkgColor': '#e65100', 'activeTaskBorderColor': '#ffffff', 'gridColor': '#cccccc', 'todayLineColor': '#d32f2f'}}}%%
 gantt
@@ -92,7 +99,6 @@ gantt
     Préparation démo vidéo             :video, 2026-02-13, 5d
     Finalisation support présentation  :final, 2026-02-20, 5d
     Présentation finale                :milestone, m4, 2026-02-26, 0d
-
 ```
 
 ---
