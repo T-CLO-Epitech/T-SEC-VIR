@@ -177,3 +177,4 @@ done
 decoded_text="${decoded_text% }"
 
 echo "$decoded_text" > "$OUTPUT_TEXT"
+echo $decoded_text
