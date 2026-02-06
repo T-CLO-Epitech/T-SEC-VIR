@@ -95,7 +95,7 @@ declare -A MORSE_CODE=(
 )
 
 
-INPUT_FILE= $file
+INPUT_FILE=$file
 OUTPUT_MORSE="decoded_morse_$(date +%Y%m%d_%H%M%S).txt"
 OUTPUT_TEXT="decoded_text_$(date +%Y%m%d_%H%M%S).txt"
 
