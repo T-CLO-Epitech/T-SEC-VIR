@@ -1,5 +1,27 @@
 #!/bin/bash
 
+file=""
+
+# Parse options
+while getopts "f:" opt; do
+  case $opt in
+    f)
+      file="$OPTARG"
+      ;;
+    \?)
+      echo "Usage: $0 -f filename"
+      exit 1
+      ;;
+  esac
+done
+
+# Check if the file variable is empty
+if [ -z "$file" ]; then
+  echo "Error: No file provided. Use -f <filename>"
+  exit 1
+fi
+
+echo "You provided the file: $file"
 declare -A SIZE_MAP=(
     [130]="."
     [131]="-"
@@ -73,7 +95,7 @@ declare -A MORSE_CODE=(
 )
 
 
-INPUT_FILE="icmp_length_20260110_190335.txt"
+INPUT_FILE=$file
 OUTPUT_MORSE="decoded_morse_$(date +%Y%m%d_%H%M%S).txt"
 OUTPUT_TEXT="decoded_text_$(date +%Y%m%d_%H%M%S).txt"
 
@@ -155,3 +177,4 @@ done
 decoded_text="${decoded_text% }"
 
 echo "$decoded_text" > "$OUTPUT_TEXT"
+echo $decoded_text
