@@ -1,28 +1,6 @@
-# ==========================
-# Config
-# ==========================
-$exeName = "truc.exe"
-$goFile = "malware.go"
-$versionJson = "versioninfo.json"
-$sysoFile = "versioninfo.syso"
+ssh -N   -L  -4  localhost:9000:localhost:9000   -L localhost:3000:localhost:3000    debian@51.178.52.51 -i .ssh/id_ed25519
 
-# ==========================
-# Step 1: Generate 64-bit .syso
-# ==========================
-Write-Host "Generating 64-bit .syso from $versionJson..."
-rsrc -arch=amd64 -manifest $versionJson -o $sysoFile
-
-# ==========================
-# Step 2: Clean Go cache
-# ==========================
-Write-Host "Cleaning Go build cache..."
-go clean -cache
-go clean -modcache
-
-# ==========================
-# Step 3: Build the EXE
-# ==========================
-Write-Host "Building $exeName..."
-go build -a -o $exeName $goFile
-
-Write-Host "Build complete! Check $exeName -> Properties -> Details tab for metadata."
+ssh -4 -N \
+  -L 127.0.0.1:19000:127.0.0.1:9000 \
+  -L 127.0.0.1:13000:127.0.0.1:3000 \
+  -L 127.0.0.1:19999:127.0.0.1:9999 \ debian@51.178.52.51 -i .ssh/id_ed25519
