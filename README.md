@@ -85,12 +85,12 @@ gantt
     Schéma fonctionnel (Victor)                :done, fonc, 2026-01-15, 2d
     Création support de présentation (Victor)   :done, support, 2026-01-16, 5d
     Deuxième réunion de suivi          :milestone, m2, 2026-01-22, 0d
-    Conception protocoles communication (Victor Nicolas) :active, conc1, 2026-01-23, 1d
-    Charge utile-1 récup ordre DNS     :cu1, 2026-01-23, 1d
-    Charge utile-2 récup fichier texte :cu2, 2026-01-23, 1d
-    Charge utile-3 encoder fichier     :cu3, 2026-01-23, 1d
-    Charge utile-4 exfiltrer fichier   :cu4, 2026-01-29, 1d
-    Charge utile-5 décoder morse       :cu5, 2026-01-29, 1d
+    Conception protocoles communication (Victor Nicolas) :done, conc1, 2026-01-23, 1d
+    Charge utile-1 récup ordre DNS     :done, 2026-01-23, 1d
+    Charge utile-2 récup fichier texte :done, 2026-01-23, 1d
+    Charge utile-3 encoder fichier     :done, 2026-01-23, 1d
+    Charge utile-4 exfiltrer fichier   :done, 2026-01-29, 1d
+    Charge utile-5 décoder morse       :done, 2026-01-29, 1d
     Recherche méthode offuscation      :rech, 2026-01-23, 5d
     Obfuscation-1 encapsuler charge    :off1, 2026-01-30, 4d
     Troisième réunion de suivi         :milestone, m3, 2026-02-04, 0d
