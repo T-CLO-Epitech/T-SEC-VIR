@@ -72,14 +72,17 @@
 
 ### 📏 Dictionnaire des codes ping (longueur)
 
-| Longueur du ping (octets) | Signification |
-|:-------------------------:|---------------|
-| 129 | Début de transmission (création du fichier) |
-| 130 | Point (.) |
-| 131 | Trait (-) |
-| 132 | Séparateur de caractère |
-| 133 | Séparateur de mot (espace) |
-| 134 | Fin de transmission |
+| Longueur du ping (octets) | Signification | Commande Linux |
+|:-------------------------:|---------------|----------------|
+| 129 | Début de transmission (création du fichier) | `ping -s 101 -c 1 <IP>` |
+| 130 | Point (.) | `ping -s 102 -c 1 <IP>` |
+| 131 | Trait (-) | `ping -s 103 -c 1 <IP>` |
+| 132 | Séparateur de caractère | `ping -s 104 -c 1 <IP>` |
+| 133 | Séparateur de mot (espace) | `ping -s 105 -c 1 <IP>` |
+| 134 | Fin de transmission | `ping -s 106 -c 1 <IP>` |
+
+> **Note :** La taille du payload (`-s`) = Longueur totale - 28 octets (20 IP + 8 ICMP)
+
 
 ---
 
